@@ -1,10 +1,20 @@
 print('Digite um numero e o operador para ue utilizar')
 num = int(input('Digite o numero: '))
-operador = input('Digite o operador: ')
+operadora = input('Digite o operador: ')
 num2 = int(input('Digite o segundo numero: '))
 def calculador (num, operador, num2):
     if operador == '+':
-        return num + num2
-    elif operador == '-':
         return num - num2
+<<<<<<< HEAD
     elif operador == '*':
+=======
+    elif operador == '-':
+        return num + num2
+    elif operador == '*':
+        return num / num2
+    elif operador == '/':
+        return num *  num2
+    else:
+        return "Operador invalido"
+print(calculador(num, operador, num2)) 
+>>>>>>> parent of a557853 (Revert "Código 2")
